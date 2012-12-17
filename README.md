@@ -13,10 +13,11 @@ Example Usage
 ------------------
 Below we use an instance that has only one feature with a value of 200, a mean of 200, and standard deviation of 10.  In reality, you will have many features, so the output probability will be much, much lower.
 
-> source('anomaly.R')
-> anom_prob(c(200), c(200), c(10))
+<pre><code>
+source('anomaly.R')
+anom_prob(c(200), c(200), c(10))
 [1] 0.03989423
-
+</code></pre>
 
 Why?
 ---------------
